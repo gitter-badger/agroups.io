@@ -9,7 +9,8 @@ Can also add feature to search packages, install and remove packages,have minifi
 
 # Documentation
 - Initial mindmap *[Mindmup](https://atlas.mindmup.com/2015/08/26eb19802d4f013316256761b16289db/agroups_io_/index.html)*
-- Trello *[Go to](https://trello.com/agroups)*
+- Task boards *[Trello](https://trello.com/agroups)*
+- Wireframe *[Moqups](https://moqups.com/jonatasfreitasv@gmail.com/dOHIovDo)*
 
 
 #Licence
