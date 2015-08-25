@@ -1,5 +1,5 @@
 # About Agroups.io
-A open-source project, agroups.io is a desktop UI app developed with JS stack to manage all package managers, like a bower, npm and composer.
+A open-source project, agroups.io is a desktop UI app (OSX, Windows and Linux) developed with JS stack based on node-webkit (nw.js) to manage all package managers, like a bower, npm and composer.
 
 This app show all installed packages in selected project, if is up to date or not, total of packages in project, is used or not and others features.
 
