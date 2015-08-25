@@ -35,4 +35,4 @@ node_modules
 .idea/*
 
 * Bower components
-bower_components/*
+bower_components
