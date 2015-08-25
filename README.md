@@ -7,6 +7,10 @@ In selected package, show actual version, github link and other informations abo
 
 Can also add feature to search packages, install and remove packages,have minified version, source packages, test files, etc.
 
+# Documentation
+- Initial mindmap *[Mindmup](https://atlas.mindmup.com/2015/08/26eb19802d4f013316256761b16289db/agroups_io_/index.html)*
+- Trello *[Go to](https://trello.com/agroups)*
+
 
 #Licence
 
