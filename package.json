@@ -1,0 +1,19 @@
+{
+  "name": "agroups.io",
+  "version": "0.0.1",
+  "description": "A open-source desktop app to manage all package managers like a bower, npm and composer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonatasfreitasv/agroups.io.git"
+  },
+  "author": "Jonatas Freitas (jonatasfreitasv@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonatasfreitasv/agroups.io/issues"
+  },
+  "homepage": "https://github.com/jonatasfreitasv/agroups.io#readme"
+}
