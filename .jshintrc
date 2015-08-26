@@ -139,6 +139,7 @@
     "describe",
     "it",
     "expect",
-    "_"
+    "_",
+    "Backbone"
   ]
 }
