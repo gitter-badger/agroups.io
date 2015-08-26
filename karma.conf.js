@@ -17,6 +17,7 @@
             // list of files / patterns to load in the browser
             files: [
                 {pattern: 'app/**/*.js', included: false},
+                {pattern: 'app/*.js', included: false},
                 {pattern: 'bower_components/**/*.js', included: false}
             ],
 
