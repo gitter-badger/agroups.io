@@ -14,7 +14,7 @@ Feel free to contribute to the Agroups.io, it's yours too.
 - Pre requisites -> node.js, npm, bower and grunt is global installed, any question, open issue.
 - run ``` npm install ```
 - run ``` bower install ```
-- run ``` grunt dev ``` or ``` grunt exec:run ```
+- run ``` grunt dev ```
 
 # First steps development documentation
 - Initial mindmap *[Mindmup](https://atlas.mindmup.com/2015/08/7fbf2e602e4d013366c1021a815988ce/agroups_io_/index.html)*
