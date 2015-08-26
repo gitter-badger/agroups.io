@@ -34,5 +34,12 @@ node_modules
 # IDE
 .idea/*
 
-* Bower components
+# Bower components
 bower_components
+
+# NWJS
+cache
+build
+
+# CSS Folder
+app/assets/css

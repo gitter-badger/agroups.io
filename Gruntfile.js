@@ -7,27 +7,6 @@
             appDir: 'app',
             builtDir: 'app-built',
 
-            // RequireJS tasks
-            requirejs: {
-                main: {
-                    options: {
-                        mainConfigFile: '<%= appDir %>/app.js',
-                        appDir: '<%= appDir %>',
-                        baseUrl: './js',
-                        fileExclusionRegExp: /^css$/,
-                        dir: '<%= builtDir %>',
-                        optimizeCss: 'none',
-                        optimize: 'none',
-                        modules: [
-                            {
-                                name: 'app',
-                                include: []
-                            }
-                        ]
-                    }
-                }
-            },
-
             // Compass tasks
             compass: {
                 prod: {
@@ -66,7 +45,8 @@
                 all: [
                     'Gruntfile.js',
                     '<%= appDir %>/*.js',
-                    '<%= appDir %>/**/*.js'
+                    '<%= appDir %>/**/*.js',
+                    '!<%= appDir %>/bower_components/**'
                 ]
             },
 
@@ -120,6 +100,27 @@
                 }
             },
 
+            nwjs: {
+                options: {
+                    platforms: ['osx64'],
+                    buildDir: './build'
+                },
+                src: [
+                    './**/*',
+                    '!./**/*Spec.js',
+                    '!./app/bower_components/**/src/**/*',
+                    '!./app/bower_components/**/samples/**/*',
+                    '!./app/bower_components/**/test/**/*',
+                    '!./app/bower_components/**/media/**/*',
+                    '!./node_modules/**',
+                    '!./cache/**',
+                    '!./build/**',
+                    '!./Gruntfile.js',
+                    '!./karma.conf.js',
+                    '!./bower.json'
+                ]
+            },
+
             // Clean folders
             clean: {
                 //assetsBuilt: ["web/assets-built"]
@@ -144,10 +145,13 @@
             ]);
 
         // Prod task group
-        grunt.registerTask('prod',
+        grunt.registerTask('build',
             '# Taskgroup: Compile production environment.',
             [
-                //'jshint'
+                'jshint',
+                'karma:singleRun',
+                'compass:dev',
+                'nwjs'
             ]);
 
         grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -159,6 +163,7 @@
         grunt.loadNpmTasks('grunt-continue');
         grunt.loadNpmTasks('grunt-contrib-clean');
         grunt.loadNpmTasks('grunt-bg-shell');
+        grunt.loadNpmTasks('grunt-nw-builder');
 
     };
 
