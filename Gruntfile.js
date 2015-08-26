@@ -92,9 +92,9 @@
 
             // Terminal commands
             exec: {
-                //startSymfonyServer: {
-                    //cmd: 'php app/console server:start'
-                //}
+                openNW: {
+                    cmd: 'node_modules/nw/bin/nw ./'
+                }
             },
 
             // Unit test with Karma
@@ -131,7 +131,9 @@
                 'jshint',
                 'compass:dev',
                 'karma:dev',
-                'watch'
+                'exec:openNW'
+                // TODO: added watch files and live reload
+                //'watch'
             ]);
 
         // Prod task group
