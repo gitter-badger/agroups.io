@@ -10,6 +10,12 @@ In selected package, show actual version, github link and other informations abo
 
 Can also add feature to search packages, install and remove packages,have minified version, source packages, test files, etc.
 
+# To run project
+- Pre requisites -> node.js, npm, bower and grunt is global installed, any question, open issue.
+- run ``` npm install ```
+- run ``` bower install ```
+- run ``` grunt dev ``` or ``` grunt exec:run ```
+
 # First steps development documentation
 - Initial mindmap *[Mindmup](https://atlas.mindmup.com/2015/08/26eb19802d4f013316256761b16289db/agroups_io_/index.html)*
 - Task boards *[Trello](https://trello.com/agroups)*
