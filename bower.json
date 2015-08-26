@@ -20,11 +20,10 @@
     "tests"
   ],
   "dependencies": {
+    "backbone": "~1.2.2",
     "Chart.js": "~1.0.2",
     "foundation": "~5.5.2",
     "foundation-icon-fonts": "*",
-    "nprogress": "~0.2.0",
-    "react": "~0.13.3",
-    "underscore": "~1.8.3"
+    "nprogress": "~0.2.0"
   }
 }
