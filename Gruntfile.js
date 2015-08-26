@@ -92,7 +92,7 @@
 
             // Terminal commands
             exec: {
-                openNW: {
+                run: {
                     cmd: 'node_modules/nw/bin/nw ./'
                 }
             },
@@ -120,7 +120,6 @@
         grunt.registerTask('test',
             '# Taskgroup: exec all test\'s',
             [
-                'behat',
                 'karma:singleRun'
             ]);
 
@@ -130,9 +129,9 @@
             [
                 'jshint',
                 'compass:dev',
-                'karma:dev',
-                'exec:openNW'
+                'exec:run'
                 // TODO: added watch files and live reload
+                //'karma:singleRun',
                 //'watch'
             ]);
 
