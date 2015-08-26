@@ -24,6 +24,7 @@
     "foundation": "~5.5.2",
     "foundation-icon-fonts": "*",
     "nprogress": "~0.2.0",
-    "requirejs": "~2.1.20"
+    "react": "~0.13.3",
+    "underscore": "~1.8.3"
   }
 }
