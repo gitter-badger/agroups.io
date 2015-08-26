@@ -2,13 +2,13 @@
 
 
 # About Agroups.io
-A open-source project, agroups.io is a desktop UI app (OSX, Windows and Linux) developed with JS stack based on node-webkit (nw.js) with AngularJS and RequireJS to manage all package managers, like a bower, npm and composer.
+The Agroups.io open source project is a desktop application for OSX, Linux and Windows developed entirely with javascript based on NW.JS (Node-Webkit), with it you can manage in a graphical interface managers npm packages (node. js), composer (php) and bower (js).
 
-This app show all installed packages in selected project, if is up to date or not, total of packages in project, is used or not and others features.
+In the future we will also implement the functionality to manage the Grunt and Karma configuration files.
 
-In selected package, show actual version, github link and other informations about the package.
+This project was developed with the main base Node.js Webkit with Angular.js and other open-source libraries, the mind-map described below contains all the stack used.
 
-Can also add feature to search packages, install and remove packages,have minified version, source packages, test files, etc.
+Feel free to contribute to the Agroups.io, it's yours too.
 
 # To run project
 - Pre requisites -> node.js, npm, bower and grunt is global installed, any question, open issue.
