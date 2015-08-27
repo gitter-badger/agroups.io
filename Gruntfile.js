@@ -140,6 +140,7 @@
             [
                 'jshint',
                 'compass:dev',
+                'karma:dev:start',
                 'bgShell:runNW',
                 'watch'
             ]);
