@@ -16,7 +16,7 @@ With it you can in a graphical interface manage packages managers like npm (node
 - Install *[Node.JS](https://nodejs.org/download/)*
 - Install *[NPM](https://www.npmjs.com/package/npm)*
 - Install *[Bower](http://bower.io/#install-bower)*
-- Run ``` npm install -g grunt-cli ```
+- Run ``` npm install -g grunt-cli ``` try sudo on error
 - In project folder run ``` npm install && bower install ```
 - To start dev env run ``` grunt dev  ```
 
