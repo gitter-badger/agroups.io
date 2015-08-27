@@ -1,4 +1,3 @@
 language: node_js
-repo_token: 9WpgRmYJDwJa6zxEPBA88626ajyrSJQNC
 node_js:
   - "0.12"
