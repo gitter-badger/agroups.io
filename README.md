@@ -1,5 +1,7 @@
 # IN PROGRESS, NOT HAVE ANY VERSION
 
+[![Join the chat at https://gitter.im/jonatasfreitasv/agroups.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jonatasfreitasv/agroups.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 # About Agroups.io [![Build Status](https://travis-ci.org/jonatasfreitasv/agroups.io.svg?branch=master)](https://travis-ci.org/jonatasfreitasv/agroups.io) [![david-dm](https://david-dm.org/jonatasfreitasv/agroups.io.svg)](https://david-dm.org/jonatasfreitasv/agroups.io) [![david-dm](https://david-dm.org/jonatasfreitasv/agroups.io/dev-status.svg)](https://david-dm.org/jonatasfreitasv/agroups.io#dev-badge-embed=&info=devDependencies&view=table)
 
