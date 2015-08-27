@@ -2,11 +2,11 @@
 
 
 # About Agroups.io [![Build Status](https://travis-ci.org/jonatasfreitasv/agroups.io.svg?branch=master)](https://travis-ci.org/jonatasfreitasv/agroups.io)
-The open-source project Agroups.io is a desktop application for OSX, Linux and Windows developed entirely with javascript based on NW.JS (Node-Webkit), Backbone.js and ZURB Foundation.
+The open-source project Agroups.io is a desktop application for OSX, Linux and Windows developed entirely with javascript based on *[NW.JS (Node-Webkit)](http://nwjs.io/)*, *[Backbone.js](http://backbonejs.org/)* and *[ZURB Foundation 5](http://foundation.zurb.com/)*.
 
 With it you can in a graphical interface manage packages managers like npm (node.js), composer (php) and Bower (js). In the future we will also implement the functionality to manage the Grunt and Karma configuration files.
 
-#####This project have a unit and functionaly test with Karma + Jasmine and continous integration with *[Travis-CI](https://travis-ci.org/jonatasfreitasv/agroups.io)*.
+#####This project have a unit and functionaly test with *[Karma](http://karma-runner.github.io/0.13/index.html)* + *[Jamsine](http://jasmine.github.io/2.3/introduction.html)* and continous integration with *[Travis-CI](https://travis-ci.org/jonatasfreitasv/agroups.io)*.
 
 #####The mind-map described below contains all the used stack .
 
