@@ -1,7 +1,8 @@
 # IN PROGRESS, NOT HAVE ANY VERSION
 
 
-# About Agroups.io [![Build Status](https://travis-ci.org/jonatasfreitasv/agroups.io.svg?branch=master)](https://travis-ci.org/jonatasfreitasv/agroups.io) [![Coverage Status](https://coveralls.io/repos/jonatasfreitasv/agroups.io/badge.svg?branch=master&service=github)](https://coveralls.io/github/jonatasfreitasv/agroups.io?branch=master)
+# About Agroups.io [![Build Status](https://travis-ci.org/jonatasfreitasv/agroups.io.svg?branch=master)](https://travis-ci.org/jonatasfreitasv/agroups.io) [![david-dm](https://david-dm.org/jonatasfreitasv/agroups.io.svg)](https://david-dm.org/jonatasfreitasv/agroups.io) [![david-dm](https://david-dm.org/jonatasfreitasv/agroups.io/dev-status.svg)](https://david-dm.org/jonatasfreitasv/agroups.io)
+
 
 The open-source project Agroups.io is a desktop application for OSX, Linux and Windows developed entirely with javascript based on *[NW.JS (Node-Webkit)](http://nwjs.io/)*, *[Backbone.js](http://backbonejs.org/)* and *[ZURB Foundation 5](http://foundation.zurb.com/)*.
 
