@@ -1,8 +1,5 @@
 $fi-path: "../../bower_components/foundation-icon-fonts" !default;
 
-$red: #f04124;
-$yellow: #f08a24;
-
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
@@ -103,7 +100,7 @@ $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 // $white       : #FFFFFF;
 // $ghost       : #FAFAFA;
 // $snow        : #F9F9F9;
-// $vapor       : #F6F6F6;
+$vapor       : #F6F6F6;
 // $white-smoke : #F5F5F5;
 // $silver      : #EFEFEF;
 // $smoke       : #EEEEEE;
@@ -117,7 +114,7 @@ $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 // $charcoal    : #555555;
 // $tuatara     : #444444;
 // $oil         : #333333;
-// $jet         : #222222;
+$jet         : #222222;
 // $black       : #000000;
 
 // We use these as default colors throughout
@@ -129,8 +126,8 @@ $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 // $info-color: #a0d3e8;
 
 // We use these to control various global styles
-$body-bg: #FAFAFA;
-// $body-font-color: $jet;
+$body-bg: $jet;
+$body-font-color: $vapor;
 $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -218,14 +215,14 @@ $body-font-family: $font-family-sans-serif;
 // $header-font-family: $body-font-family;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
-// $header-font-color: $jet;
+$header-font-color: $vapor;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-$h1-font-size: rem-calc(24) !default;
+//$h1-font-size: rem-calc(24) !default;
 $h2-font-size: rem-calc(19) !default;
 $h3-font-size: rem-calc(16) !default;
 $h4-font-size: rem-calc(14) !default;

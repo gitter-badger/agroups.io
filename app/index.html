@@ -5,23 +5,33 @@
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-<h1>Hello World !</h1>
 
-<input id="file" type="file" />
-<button>Go!</button>
-
-<br><br>
-<div id="content">
-    Old text.
+<div class="row">
+    <br><br><br>
+    <div class="small-12 columns text-center">
+        <h1>agroups.io</h1>
+    </div>
 </div>
 
-<script id="personTemplate" type="text/template">
-    <strong><%= name %></strong> () - <%= occupation %>
-</script>
+<br>
+
+<div class="row">
+    <div class="small-8 small-centered columns">
+        <div class="row collapse">
+            <div class="small-10 columns">
+                <input type="text" placeholder="select project folder">
+            </div>
+            <div class="small-2 columns">
+                <button class="postfix">start</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="bower_components/underscore/underscore-min.js"></script>
 <script src="bower_components/jquery/dist/jquery.min.js"> </script>
 <script src="bower_components/backbone/backbone-min.js"></script>
 <script src="app.js"></script>
+
 </body>
 </html>
