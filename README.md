@@ -13,10 +13,14 @@ With it you can in a graphical interface manage packages managers like npm (node
 ####Contribute to the Agroups.io, it's yours too.
 
 # To run project
-- Pre requisites -> node.js, npm, bower and grunt is global installed, any question, open issue.
-- run ``` npm install ```
-- run ``` bower install ```
-- run ``` grunt dev ```
+- Install *[Node.JS](https://nodejs.org/download/)*
+- Install *[NPM](https://www.npmjs.com/package/npm)*
+- Run ``` npm install -g grunt-cli ```
+- In project folder run ``` npm install && bower install ```
+- To start dev env run ``` grunt dev  ```
+
+# To build project
+- Run ``` npm build ```
 
 # First steps development documentation
 - Initial mindmap *[Mindmup](https://atlas.mindmup.com/2015/08/7fbf2e602e4d013366c1021a815988ce/agroups_io_/index.html)*
